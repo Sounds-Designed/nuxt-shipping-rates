@@ -1,6 +1,6 @@
 {
   "name": "@sounds-designed/nuxt-shipping-rates",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A Nuxt module for storing shipping rates",
   "repository": "Sounds-Designed/nuxt-shipping-rates",
   "license": "GPL-3.0-or-later",
