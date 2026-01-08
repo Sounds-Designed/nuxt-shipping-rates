@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@sounds-designed/nuxt-shipping-playground",
+  "name": "@sounds-designed/nuxt-shipping-rates-playground",
   "type": "module",
   "scripts": {
     "dev": "nuxi dev",

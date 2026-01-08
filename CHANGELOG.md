@@ -6,7 +6,7 @@
 
 ### 🏡 Chore
 
-- Repo init ([7f9d1bb](https://github.com/Sounds-Designed/nuxt-shipping/commit/7f9d1bb))
+- Repo init ([7f9d1bb](https://github.com/Sounds-Designed/nuxt-shipping-rates/commit/7f9d1bb))
 
 ### ❤️ Contributors
 

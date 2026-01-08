@@ -8,7 +8,7 @@
 A Nuxt module for storing shipping rates
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
-- [🏀 Online playground](https://stackblitz.com/github/Sounds-Designed/nuxt-shipping?file=playground%2Fapp.vue)
+- [🏀 Online playground](https://stackblitz.com/github/Sounds-Designed/nuxt-shipping-rates?file=playground%2Fapp.vue)
 <!-- - [📖 &nbsp;Documentation](https://example.com) -->
 
 <!-- ## Features -->
@@ -23,7 +23,7 @@ A Nuxt module for storing shipping rates
 Install the module to your Nuxt application with one command:
 
 ```bash
-npx nuxi module add @sounds-designed/nuxt-shipping
+npx nuxi module add @sounds-designed/nuxt-shipping-rates
 ```
 
 That's it! You can now use the shipping rates in your Nuxt app ✨
@@ -62,14 +62,14 @@ That's it! You can now use the shipping rates in your Nuxt app ✨
 
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/@sounds-designed/nuxt-shipping/latest.svg?style=flat&colorA=020420&colorB=00DC82
-[npm-version-href]: https://npmjs.com/package/@sounds-designed/nuxt-shipping
+[npm-version-src]: https://img.shields.io/npm/v/@sounds-designed/nuxt-shipping-rates/latest.svg?style=flat&colorA=020420&colorB=00DC82
+[npm-version-href]: https://npmjs.com/package/@sounds-designed/nuxt-shipping-rates
 
-[npm-downloads-src]: https://img.shields.io/npm/dm/@sounds-designed/nuxt-shipping.svg?style=flat&colorA=020420&colorB=00DC82
-[npm-downloads-href]: https://npm.chart.dev/@sounds-designed/nuxt-shipping
+[npm-downloads-src]: https://img.shields.io/npm/dm/@sounds-designed/nuxt-shipping-rates.svg?style=flat&colorA=020420&colorB=00DC82
+[npm-downloads-href]: https://npm.chart.dev/@sounds-designed/nuxt-shipping-rates
 
-[license-src]: https://img.shields.io/npm/l/@sounds-designed/nuxt-shipping.svg?style=flat&colorA=020420&colorB=00DC82
-[license-href]: https://npmjs.com/package/@sounds-designed/nuxt-shipping
+[license-src]: https://img.shields.io/npm/l/@sounds-designed/nuxt-shipping-rates.svg?style=flat&colorA=020420&colorB=00DC82
+[license-href]: https://npmjs.com/package/@sounds-designed/nuxt-shipping-rates
 
 [nuxt-src]: https://img.shields.io/badge/Nuxt-020420?logo=nuxt
 [nuxt-href]: https://nuxt.com
