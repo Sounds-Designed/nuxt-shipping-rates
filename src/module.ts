@@ -1,6 +1,6 @@
 import { defineNuxtModule, addPlugin, createResolver } from '@nuxt/kit'
 import { defu } from 'defu'
-import { type ShippingRate } from './module'
+import type { ShippingRate } from './module'
 
 export type * from './runtime/types'
 
