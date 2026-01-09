@@ -1,0 +1,274 @@
+[
+ {
+   "label": "Royal Mail 48 Tracked",
+   "price": 3.61,
+   "minWeight": 0.101,
+   "maxWeight": 0.699,
+   "isCourier": false,
+   "zone": "UK"
+ },
+ {
+   "label": "Royal Mail 24 Tracked",
+   "price": 3.29,
+   "minWeight": 0,
+   "maxWeight": 0.1,
+   "isCourier": false,
+   "zone": "UK"
+ },
+ {
+   "label": "Royal Mail 24 Tracked",
+   "price": 4.75,
+   "minWeight": 0.101,
+   "maxWeight": 0.699,
+   "isCourier": false,
+   "zone": "UK"
+ },
+ {
+   "label": "Evri 24",
+   "price": 3.46,
+   "minWeight": 0,
+   "maxWeight": 0.1,
+   "isCourier": false,
+   "zone": "UK"
+ },
+ {
+   "label": "Evri 24",
+   "price": 4.36,
+   "minWeight": 0.101,
+   "maxWeight": 0.699,
+   "isCourier": false,
+   "zone": "UK"
+ },
+ {
+   "label": "Evri 48",
+   "price": 2.87,
+   "minWeight": 0,
+   "maxWeight": 0.1,
+   "isCourier": false,
+   "zone": "UK"
+ },
+ {
+   "label": "Evri 48",
+   "price": 3.34,
+   "minWeight": 0.101,
+   "maxWeight": 0.699,
+   "isCourier": false,
+   "zone": "UK"
+ },
+ {
+   "label": "DPD Courier",
+   "price": 11.99,
+   "minWeight": 0.7,
+   "maxWeight": 6,
+   "isCourier": true,
+   "zone": "UK"
+ },
+ {
+   "label": "DPD Courier",
+   "price": 23.98,
+   "minWeight": 6.01,
+   "maxWeight": 12,
+   "isCourier": true,
+   "zone": "UK"
+ },
+ {
+   "label": "Europe Tracked",
+   "price": 8.58,
+   "minWeight": 0,
+   "maxWeight": 0.1,
+   "isCourier": false,
+   "zone": "EU"
+ },
+ {
+   "label": "Europe Tracked",
+   "price": 10.86,
+   "minWeight": 0.101,
+   "maxWeight": 0.399,
+   "isCourier": false,
+   "zone": "EU"
+ },
+ {
+   "label": "Europe Tracked",
+   "price": 13.27,
+   "minWeight": 0.4,
+   "maxWeight": 0.699,
+   "isCourier": false,
+   "zone": "EU"
+ },
+ {
+   "label": "DPD Courier",
+   "price": 23.89,
+   "minWeight": 0.7,
+   "maxWeight": 6,
+   "isCourier": true,
+   "zone": "EU"
+ },
+ {
+   "label": "Europe Tracked",
+   "price": 10.84,
+   "minWeight": 0,
+   "maxWeight": 0.1,
+   "isCourier": false,
+   "zone": "EU_2"
+ },
+ {
+   "label": "Europe Tracked",
+   "price": 13.03,
+   "minWeight": 0.101,
+   "maxWeight": 0.399,
+   "isCourier": false,
+   "zone": "EU_2"
+ },
+ {
+   "label": "Europe Tracked",
+   "price": 15.92,
+   "minWeight": 0.4,
+   "maxWeight": 0.699,
+   "isCourier": false,
+   "zone": "EU_2"
+ },
+ {
+   "label": "DPD Courier",
+   "price": 23.89,
+   "minWeight": 0.7,
+   "maxWeight": 6,
+   "isCourier": true,
+   "zone": "EU_2"
+ },
+ {
+   "label": "USPS",
+   "price": 7.08,
+   "minWeight": 0,
+   "maxWeight": 0.1,
+   "isCourier": false,
+   "zone": "US"
+ },
+ {
+   "label": "USPS",
+   "price": 11.64,
+   "minWeight": 0.101,
+   "maxWeight": 0.149,
+   "isCourier": false,
+   "zone": "US"
+ },
+ {
+   "label": "USPS",
+   "price": 14.89,
+   "minWeight": 0.15,
+   "maxWeight": 0.15,
+   "isCourier": false,
+   "zone": "US"
+ },
+ {
+   "label": "USPS",
+   "price": 11.64,
+   "minWeight": 0.151,
+   "maxWeight": 0.199,
+   "isCourier": false,
+   "zone": "US"
+ },
+ {
+   "label": "USPS",
+   "price": 16.14,
+   "minWeight": 0.2,
+   "maxWeight": 0.399,
+   "isCourier": false,
+   "zone": "US"
+ },
+ {
+   "label": "USPS",
+   "price": 18.97,
+   "minWeight": 0.4,
+   "maxWeight": 0.499,
+   "isCourier": false,
+   "zone": "US"
+ },
+ {
+   "label": "USPS",
+   "price": 23.45,
+   "minWeight": 0.5,
+   "maxWeight": "0.599",
+   "isCourier": false,
+   "zone": "US"
+ },
+ {
+   "label": "USPS",
+   "price": 23.94,
+   "minWeight": 0.6,
+   "maxWeight": 0.699,
+   "isCourier": false,
+   "zone": "US"
+ },
+ {
+   "label": "DPD Courier",
+   "price": 37.8,
+   "minWeight": 0.7,
+   "maxWeight": 6,
+   "isCourier": true,
+   "zone": "US"
+ },
+ {
+   "label": "Canada Tracked",
+   "price": 10.31,
+   "minWeight": 0,
+   "maxWeight": 0.1,
+   "isCourier": false,
+   "zone": "CA"
+ },
+ {
+   "label": "Canada Tracked",
+   "price": 14.99,
+   "minWeight": 0.101,
+   "maxWeight": 0.399,
+   "isCourier": false,
+   "zone": "CA"
+ },
+ {
+   "label": "Canada Tracked",
+   "price": 14.99,
+   "minWeight": 0.4,
+   "maxWeight": 0.699,
+   "isCourier": false,
+   "zone": "CA"
+ },
+ {
+   "label": "DPD Courier",
+   "price": 37.8,
+   "minWeight": 0.7,
+   "maxWeight": 6,
+   "isCourier": true,
+   "zone": "CA"
+ },
+ {
+   "label": "Royal Mail Tracked",
+   "price": 12.24,
+   "minWeight": 0,
+   "maxWeight": "0.1",
+   "isCourier": false,
+   "zone": "ROW"
+ },
+ {
+   "label": "Royal Mail Tracked",
+   "price": 20.06,
+   "minWeight": 0.101,
+   "maxWeight": 0.399,
+   "isCourier": false,
+   "zone": "ROW"
+ },
+ {
+   "label": "Royal Mail Tracked",
+   "price": 30.5,
+   "minWeight": 0.4,
+   "maxWeight": 0.699,
+   "isCourier": false,
+   "zone": "ROW"
+ },
+ {
+   "label": "DPD Courier",
+   "price": 37.8,
+   "minWeight": 0.7,
+   "maxWeight": 6,
+   "isCourier": false,
+   "zone": "ROW"
+ }
+]
