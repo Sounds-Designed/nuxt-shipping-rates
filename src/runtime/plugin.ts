@@ -1,32 +1,19 @@
 import { defineNuxtPlugin } from '#app'
+import type { ShippingRate } from './types'
 
 export default defineNuxtPlugin((_nuxtApp) => {
-  console.log('Nuxt shipping plugin initialized successfully!')
-
-  return {
-    provide: {
-      shippingRates: {
-        getAllShippingRates() {
-          console.log('Getting all shipping rates')
-
-          return []
-        },
-        getCouriersForZone(zone: string) {
-          console.log('Getting couriers for zone %s', zone)
-
-          return []
-        },
-        getShippingRatesForZone(zone: string) {
-          console.log('Getting shipping rates for zone %s', zone)
-
-          return []
-        },
-        getShippingRatesForWeightAndZone(weight: number, zone: string) {
-          console.log('Getting shipping rates for weight %s in zone %s', weight, zone)
-
-          return []
-        }
-      },
+  _nuxtApp.provide("shippingRates", {
+    getAllShippingRates() {
+      return (_nuxtApp.$config.public.shippingRates.rates as ShippingRate[]) || []
     },
-  }
+    getCourierRatesForZone(zone: string = "UK") {
+      return (_nuxtApp.$config.public.shippingRates.rates as ShippingRate[]).filter(rate => rate.zone === zone && rate.isCourier === true) || []
+    },
+    getShippingRatesForZone(zone: string = "UK") {
+      return (_nuxtApp.$config.public.shippingRates.rates as ShippingRate[]).filter(rate => rate.zone === zone) || []
+    },
+    getShippingRatesForWeightAndZone(weight: number, zone: string = "UK") {
+      return (_nuxtApp.$config.public.shippingRates.rates as ShippingRate[]).filter(rate => rate.zone === zone && rate.minWeight <= weight && rate.maxWeight >= weight) || []
+    }
+  })
 })
